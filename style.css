@@ -1,0 +1,85 @@
+
+body {
+    background-color: blue;
+    /*flexbox */
+    display: flex;
+    /* alinhamento horizontal */
+    justify-content: center;
+    /* alinhamento na vertical */
+    align-items: center;
+    /* ocupa a tela inteira verticalmente */
+    min-height: 100dvh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cartao {
+    background-color: #fff;
+    /* cantos arredondados*/
+    border-radius: 10px;
+    /*Espaçamento interno*/
+    padding: 20px; 
+    width: 430px;
+    /*alinhamento de texto*/
+    text-align: center;
+    flex-direction: column;
+}
+
+.meio {
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1 {
+    color: #175d9e;
+    font-weight: 600;
+}
+
+.text-up {
+    font-weight: lighter;
+}
+/* para referenciar um "class" usamos "." */
+/* usamos class para reutilizar  */
+
+button {
+    /* sem borda */
+    border: none;
+    background-color: #fc5000;
+    /* Cor do texto */
+    color: #fff;
+    border-radius: 30px;
+    /* espaçamento interno */
+    padding: 15px 30px;
+    /* cria um cursor quando passa por cima */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #fc5;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.image {
+    /* largura */
+    width: 50%;
+    /* altura */
+    height: 50%;
+    /* cantos arredondados */
+    /* borda */
+
+}
+
+li {
+    list-style: none;
+    padding: 20px 0px 0px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.footer_div {
+    font-weight: lighter;
+}
